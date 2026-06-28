@@ -11,16 +11,20 @@ const MODEL_REMAP = {
     deepseek: {
         'claude-opus-4-6':    'deepseek-v4-pro',
         'claude-opus-4-7':    'deepseek-v4-pro',
-        'claude-sonnet-4-6':  'deepseek-v4-flash',
-        'claude-sonnet-4-5-20250929': 'deepseek-v4-flash',
-        'claude-haiku-4-5-20251001':  'deepseek-v4-flash',
+        'claude-opus-4-8':    'deepseek-v4-pro',
+        'claude-fable-5':     'deepseek-v4-pro',
+        'claude-sonnet-4-6':  'deepseek-v4-pro',
+        'claude-sonnet-4-5-20250929': 'deepseek-v4-pro',
+        'claude-haiku-4-5-20251001':  'deepseek-v4-pro',
     },
     openrouter: {
         'claude-opus-4-6':    'deepseek/deepseek-v4-pro',
         'claude-opus-4-7':    'deepseek/deepseek-v4-pro',
-        'claude-sonnet-4-6':  'deepseek/deepseek-v4-flash',
-        'claude-sonnet-4-5-20250929': 'deepseek/deepseek-v4-flash',
-        'claude-haiku-4-5-20251001':  'deepseek/deepseek-v4-flash',
+        'claude-opus-4-8':    'deepseek/deepseek-v4-pro',
+        'claude-fable-5':     'deepseek/deepseek-v4-pro',
+        'claude-sonnet-4-6':  'deepseek/deepseek-v4-pro',
+        'claude-sonnet-4-5-20250929': 'deepseek/deepseek-v4-pro',
+        'claude-haiku-4-5-20251001':  'deepseek/deepseek-v4-pro',
     },
 };
 

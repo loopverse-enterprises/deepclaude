@@ -51,7 +51,7 @@ resolve_backend() {
             [[ -z "$key" ]] && { echo "ERROR: DEEPSEEK_API_KEY not set" >&2; exit 1; }
             url="$DEEPSEEK_URL"
             opus="deepseek-v4-pro"; sonnet="deepseek-v4-pro"
-            haiku="deepseek-v4-flash"; subagent="deepseek-v4-flash"
+            haiku="deepseek-v4-pro"; subagent="deepseek-v4-pro"
             ;;
         or|openrouter)
             key="${OPENROUTER_API_KEY:-}"
